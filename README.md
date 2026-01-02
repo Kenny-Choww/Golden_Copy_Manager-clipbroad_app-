@@ -47,7 +47,7 @@ Golden Copy Manager runs quietly in the background, records your clipboard histo
 ```
 Golden-Copy-Manager/
 │
-├─ Golden_Copy_Manager_v1.0.py
+├─ Golden_Copy_Manager_.py
 ├─ assets/
 │   ├─ icon.ico
 │   └─ background.png
@@ -65,7 +65,7 @@ Golden-Copy-Manager/
 
 ```bash
 pip install pillow pystray pynput
-python Golden_Copy_Manager_v1.0.py
+python Golden_Copy_Manager.py
 ```
 
 ---
@@ -78,7 +78,7 @@ py -m PyInstaller --noconsole --onedir --clean --name GoldenCopyManager `
   --icon .\assets\icon.ico `
   --add-data 'assets;assets' `
   --add-data 'data;data' `
-  .\Golden_Copy_Manager_v1.0.py
+  .\Golden_Copy_Manager.py
 ```
 
 Output:
@@ -95,4 +95,5 @@ Zip the entire folder to share.
 - Runs locally only
 - No network access
 - Clipboard data never leaves your computer
+
 
