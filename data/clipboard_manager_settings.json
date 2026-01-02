@@ -1,0 +1,10 @@
+{
+  "hotkey": {
+    "ctrl": true,
+    "alt": true,
+    "shift": false,
+    "win": false,
+    "key": "V"
+  },
+  "monitoring_paused": false
+}
