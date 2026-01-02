@@ -96,8 +96,3 @@ Zip the entire folder to share.
 - No network access
 - Clipboard data never leaves your computer
 
----
-
-## 📜 License
-
-MIT License
